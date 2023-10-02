@@ -1,0 +1,163 @@
+body{
+    margin: 0;  /*all side margin is zero regardless of unit*/
+    color: #40514E;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    /* font-size: 1em;  when you double M to 2em then the h1 and and all other header elements will get double.Beacuse of inheritence. */
+}
+
+h1{
+    margin: 60px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    /*font-size: 90px; Equivalent of 90px in % is 562.5%.That is 100% in terms of font size is 16px.So for 90px it would be 90/16 which is around 5.625 and 5.625*100 is 562.5%*/
+    /* font-size: 562.5%; */
+    font-size: 5.625em;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    padding-bottom: 10px;
+    
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.programmer{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+.middle-container {
+    margin: 100px 0px;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0px 20px;
+    
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;  /* 40 from the top,which means the colud moves from bottom to top*/
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+p{
+    line-height: 2;
+}
+
+
+a{
+    color: #0E2954;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+
+
+.intro{
+    width: 30%;   /*30% of it's parent middle-container*/
+    margin: auto;
+}
+
+hr{
+    border: dotted #EAF6F6 6px; /*6px is the width(തടി) with a height of zero pixel,you can see that when you remove, border-bottom: none;*/
+    border-bottom: none;
+    width: 4%;  /*means width from both end*/
+    margin: 100px auto;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;  /*bottom-cloud(child) has a bottom margin of 300px from the bottom of it's(bottom-cloud) parent top-container,the bottom and top cloud is set to absolute and these two moves relative to top-container(parent) which is set relative.If the top-container is not set to relative position the bottom and top cloud will move relative to body.In most case the parent is entire body.That is the body is the default parent.Top-container is parent,bottom and top clouds are children*/
+}
+
+.ruby{
+    width: 35%;
+    float: left;
+    margin-right: 30px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.perfume{
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+}
+
+.superman{
+    width: 13%;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;  /*75% of 16px*/
+}
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+/* .description1{
+    clear: left;
+} */
+
+/* .description2{
+    clear: right;
+} */

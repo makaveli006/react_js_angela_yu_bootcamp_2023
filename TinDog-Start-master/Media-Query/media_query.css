@@ -1,0 +1,28 @@
+
+@media print{
+    h1{
+        color: red;
+    }
+}
+
+/* Exactly like if condition */
+
+/* When you press ctrl + p you will get red colored Hello world */
+
+/* But when you run normally on live server the Hello World is black */
+
+/* When you decrease the tab size the black Hello World will becone reds */
+
+@media (max-width:900px) {
+    h1{
+        color: red;
+    }
+}
+
+/* @media (min-width:900px) {
+    h1{
+        color: red;
+    }
+} */
+
+
