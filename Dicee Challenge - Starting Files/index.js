@@ -20,4 +20,3 @@ else{
     document.querySelector("h1").innerHTML = "Draw!!";
 }
 
-
