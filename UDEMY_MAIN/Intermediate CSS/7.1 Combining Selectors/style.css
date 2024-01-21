@@ -1,0 +1,28 @@
+/* Write your code here: */
+/* Group */
+h1,
+h2 {
+  color: blueviolet;
+}
+
+/* Child */
+/* Here the .box is parent and p is direct child */
+/* And all the p elements inside the .box class will have color firebrick */
+.box > p {
+  color: firebrick;
+}
+
+/* Descendent */
+.box li {
+  color: blue;
+}
+
+/* Chained */
+li.done {
+  color: green;
+}
+
+/* Multiple Combiners */
+ul p.done {
+  font-size: 0.5rem;
+}
